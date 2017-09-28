@@ -4,7 +4,7 @@
 
 `let`은 변하진 않는 상수를 선언할 떄, `var`는 변하는 변수를 선언할 때 사용한다.
 
-```
+```swift
 let maxSpeed = 400
 //maxSpeed = 200
 var currentSpeed = 200
@@ -18,14 +18,14 @@ currentSpeed:Int += 100
 
 `String`은 말그대로 문자열이고, 다음과 같이 사용 할 수 있다.
 
-```
+```swift
 let name = "Jeewoo" 
 var greeting = "Hello"
 greeting += " " + name //Hello Jeewoo
 ```
 `String`을 이용하면 `Swift`에서 많은 일을 쉽게 해낼수 가 있는데 아래가 그 예시이다.
 
-```
+```swift
 let characters = name.characters
 //위에서 선언한 name이라는 상수에 characters라는 메소드를 실행하면, 
 //배열과 비슷한 형태와 기능을 가지고 있는 Swift의 Array를 리턴해준다.
@@ -40,20 +40,20 @@ print("\(name)")
 ```
 
 이전 Chapter에서 살펴보았던 코드를 다시 살펴보자.
-```
+```swift
 var currentSpeed = 200
 currentSpeed:Int += 100
 //currentSpeed += 20.5
 ```
 위 코드의 주석을 풀게 되면 에러가 발생한다. 왜냐하면, `Swift`는 타입을 정확하게 지켜야 하기 때문이다. 그렇다면, `Int`와 `Double`을 더하기 위해선 어떻게 해야할까?
 
-```
+```swift
 var currentSpeed = 200
 currentSpeed += 100 //300
 currentSpeed += Int(20.5) //320
 ```
 다음과 같이 Int로 타입캐스팅을 해줘야 더할 수 있다. 그렇다면 **다른 경우**를 살펴보자.
-```
+```swift
 let pi = 3.14
 let diveder = 2
 let halfPi = 3.14/Double(diveder)
@@ -62,7 +62,7 @@ let halfPi = 3.14/Double(diveder)
 
 추가적으로 `Swift`의 `Int`와 `UInt`를 살펴보자.
 여기서 `Int`는 우리가 흔히들 아는 그냥 `int`이고, `UInt`는 `unsigned int`의 줄임말이다.
-```
+```swift
 let intMax = Int.max
 let unsignedMax = UInt.max
 let intMin = Int.min
