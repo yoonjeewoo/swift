@@ -6,14 +6,7 @@
 ## Contents
 
 1. [let과 var](#let과-var)
-2. 2
-3. 3
-4. 3
-5. 3
-6. 3
-7. 3
-8. 3
-9. 
+2. [String과 Numbers](#String과-Numbers)
 
 ### let과 var
 
