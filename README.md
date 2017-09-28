@@ -6,7 +6,7 @@
 ## Contents
 
 1. [let과 var](#let과-var)
-2. [String과 Numbers](#String과-Numbers)
+2. [String과 Numbers](#string과-numbers)
 
 ### let과 var
 
